@@ -17,7 +17,7 @@ No other changes to the text should be made.
     - [ ] a) stages all changes to the repository and commits with the message "description of changes"
     - [ ] b) stages all changes to the repository and opens an editor to enter the commit message, which initially contains "description of changes"
     - [ ] c) stages changes to all files already tracked by Git which have been modified or deleted, and opens an editor to enter the commit message, which initially contains "description of changes"
-    - [ ] d) stages changes to all files already tracked by Git which have been modified or deleted, and commits with the message "description of changes"
+    - [x] d) stages changes to all files already tracked by Git which have been modified or deleted, and commits with the message "description of changes"
 
 2. What does the following Git command do?
 
@@ -25,14 +25,14 @@ No other changes to the text should be made.
     git remote -v
     ```
 
-    - [ ] a) shows a list of remote repositories along with their URLs
+    - [x] a) shows a list of remote repositories along with their URLs
     - [ ] b) verifies that the remote repository exists
     - [ ] c) removes the reference to the remote repository and outputs all changes
     - [ ] d) sets the name of the remote repository to `v`
 
 3. How would you revert *unstaged* (not yet added with `git add`) changes to `README.md` in the current branch?
 
-    - [ ] a) `git reset HEAD README.md`
+    - [X] a) `git reset HEAD README.md`
     - [ ] b) `git reset --hard README.md`
     - [ ] c) `git checkout -- README.md`
     - [ ] d) `git revert README.md`
@@ -71,7 +71,7 @@ No other changes to the text should be made.
     git checkout -b experimental
     ```
 
-    - [ ] a) creates a new branch called `experimental` and switches to it
+    - [x] a) creates a new branch called `experimental` and switches to it
     - [ ] b) switches to the branch `experimental`, but only if it exists
     - [ ] c) resets any changes made to the `experimental` branch
     - [ ] d) opens a new window which displays the difference between the current and the `experimental` branches
@@ -112,11 +112,11 @@ No other changes to the text should be made.
 9. Which command lets you see all changes made to `file.txt` since the latest commit?
 
     - [ ] a) `git diff file.txt`
-    - [ ] b) `git diff HEAD file.txt`
+    - [x] b) `git diff HEAD file.txt`
     - [ ] c) `git diff --cached file.txt`
 
 10. When you run `git pull` and get a merge conflict, which of the below approaches is most suited to resolving the merge conflict?
 
     - [ ] a) make a backup by copying the directory to another location, delete the original directory, clone the repository again, then manually copy changes into the newly cloned repository from the backup
     - [ ] b) make a backup by copying the directory to another location, revert the repository back to a previous commit without any conflicts, then manually copy changes into the repository while avoiding conflicts
-    - [ ] c) fix the conflict by editing the conflicting files with a text editor, then remove the lines starting with `>>>>`, `====` and `<<<<` which were added by Git.
+    - [x] c) fix the conflict by editing the conflicting files with a text editor, then remove the lines starting with `>>>>`, `====` and `<<<<` which were added by Git.
